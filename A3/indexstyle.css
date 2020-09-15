@@ -1,0 +1,20 @@
+  h1 {
+  color: black;
+  text-align: left;
+  }
+
+  * {
+    font-family: Georgia;
+  }
+
+  #Objective {
+    font-size: 18px;
+  }
+
+  #edutable {
+    font-weight: normal;
+  }
+
+  p{
+  font-size: 16px;
+  }
