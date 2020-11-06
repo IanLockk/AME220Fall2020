@@ -1,0 +1,37 @@
+	1.	Convert to rgb format (4 pts.)
+	⁃	#3461fa
+	  ⁃	
+	  ⁃	rgb(52, 97, 250)
+	⁃	#ab34c6
+	  ⁃	rgb(171, 52, 198)
+	⁃	#feb237
+	  ⁃	rgb(254, 178, 55)
+	⁃	#ab4571
+	  ⁃	rgb(171, 69, 113)
+	⁃	#34c6ab
+	  ⁃	rgb(52, 198, 171)
+	⁃	#237feb
+	  ⁃	rgb(35, 127, 235)
+	⁃	#b4571a
+	  ⁃	rgb(180, 87, 26)
+	⁃	#5ab471
+	  ⁃	rgb(90, 180, 113)
+	2.	Convert to hex format (4 pts.)
+	  ⁃	rgb(213, 22,2)
+	    ⁃	#D51602
+	  ⁃	rgb(212,226,52)
+	    ⁃	#D4E234
+	  ⁃	rgb(13,124,41)
+	    ⁃	#0D7C29
+	  ⁃	rgb(213,32,113)
+	   ⁃	#D52071
+	  ⁃	rgb(226,12,52)
+	    ⁃	#E20C34
+	  ⁃	rgb(12,124,41)
+	   ⁃	#0C7C29
+	  ⁃	rgb(23,132,11)
+	   ⁃	#17840B
+	  ⁃	rgba(112,23,124,.4)
+	    ⁃	
+Question (2 pts.)
+Background-color, Border-color, color, Outline-color
