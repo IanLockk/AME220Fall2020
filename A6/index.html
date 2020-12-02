@@ -52,7 +52,7 @@ function goToCurrentSlide(){
   var i = 0;
   while(i < allImgObjs.length){
     if(i == (currentSlide - 1)){
-      allImgObjs[i].style.marginLeft = "0%"
+      allImgObjs[i].style.marginLeft = "0%";
     }
     else if(i < (currentSlide - 1)){
       allImgObjs[i].style.marginLeft = "-100%";
@@ -62,8 +62,8 @@ function goToCurrentSlide(){
     }
     i = i + 1;
   }
- // $("img").fadeOut()
- // $("img:nth-of-type(" + currentSlide + ")").stop().fadeIn();
+ $("img").fadeOut("slow")
+ $("img:nth-of-type(" + currentSlide + ")").stop().fadeIn("slow");
  $(".num").removeClass("active");
  $(".num:nth-of-type("+ currentSlide+ ")").addClass("active");
 }
