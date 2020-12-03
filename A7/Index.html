@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
   </head>
   <body>
@@ -35,8 +35,17 @@
     <button onclick='addAnimation(event)'>bounceOutLeft</button>
     <button onclick='addAnimation(event)'>bounceOutRight</button>
     <button onclick='addAnimation(event)'>bounceOutUp</button>
-    <button onclick='addAnimation(event)'></button>
-
+    <button onclick='addAnimation(event)'>fadeIn</button>
+    <button onclick='addAnimation(event)'>fadeInDown</button>
+    <button onclick='addAnimation(event)'>fadeInDownBig</button>
+    <button onclick='addAnimation(event)'>fadeInLeft</button>
+    <button onclick='addAnimation(event)'>fadeInLeftBig</button>
+    <button onclick='addAnimation(event)'>fadeInRight</button>
+    <button onclick='addAnimation(event)'>fadeInRightBig</button>
+    <button onclick='addAnimation(event)'>fadeInUp</button>
+    <button onclick='addAnimation(event)'>fadeInUpBig</button>
+    <button onclick='addAnimation(event)'>fadeInTopLeft</button>
+    <button onclick='addAnimation(event)'>fadeInTopRight</button>
     <div id='theDiv'>
     </div>
   </body>
@@ -49,8 +58,10 @@
   </style>
   <script>
     function addAnimation(e){
-      var aName = e.target.innerHTML;
-      alert(aName);
-    }
+    var aName = e.target.innerHTML;
+    alert(aName);
+    $("#theDiv").removeClass();
+    $("#theDiv").addClass("animate__animated animate__" + aName)
+  }
   </script>
-</html>
+<html>
